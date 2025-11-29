@@ -79,16 +79,14 @@ Available at [`/dataset-analysis`](http://localhost:8000/dataset-analysis).
 
 ## Do This Befor Run
 
-GROQ API KEY INSIDE `app.py` --> `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`
-PINECONE API KEY INSIDE `app.py` --> `pcsk_32vRuT_EcaMAmX5NigWy1iQQX2PuJNQTVvBUuruPPCnmFviXb85UULqp2mrXEnesSpRJqF`
-GROQ API KEY INSIDE `nexus_ai.py` --> `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`
+- GROQ API KEY INSIDE `app.py` --> `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`
+- PINECONE API KEY INSIDE `app.py` --> `pcsk_32vRuT_EcaMAmX5NigWy1iQQX2PuJNQTVvBUuruPPCnmFviXb85UULqp2mrXEnesSpRJqF`
+- GROQ API KEY INSIDE `nexus_ai.py` --> `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`
 
-**GO to AEIRS Folder inside the project** --> `cd AEIRS`
-**Install Requirements** --> `pip install -r requirements,txt` (near app.py)
+- **GO to AEIRS Folder inside the project** --> `cd AEIRS`
+- **Install Requirements** --> `pip install -r requirements,txt` (near app.py)
 
 ## Run:
-`uvicorn app:app --reload`
-
-(or)
-
+`uvicorn app:app --reload`  
+(or)  
 `py ap.py`
